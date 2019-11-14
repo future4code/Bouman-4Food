@@ -1,19 +1,20 @@
 
-
+*{margin:0; padding:0;}
 
 header {
+	color:#68432F;
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
 }
 @media screen and (max-width: 400px){
 	header{
-		justify-content: flex-start;
+		justify-content: center;
 	}
 }
 header img{
-	width:150px;
+	width:300px;
 }
 header img:last-child{
 	width:100%;
@@ -63,6 +64,7 @@ body {
 }
 #parceiros img{
 	width:20%;
+	max-width: 150px;
 	margin:5%;
 	min-width: 150px;
 }
