@@ -1,7 +1,27 @@
+header {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+@media screen and (max-width: 400px){
+	header{
+		justify-content: flex-start;
+	}
+}
+header img{
+	width:150px;
+}
+header img:last-child{
+	width:100%;
+	border: 1px solid black;
+}
+
+/*Seção PARCEIROS*/
 #parceiros{
 	display:flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: center;
 }
 #parceiros img{
 	width:20%;
